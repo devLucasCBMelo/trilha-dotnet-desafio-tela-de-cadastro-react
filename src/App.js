@@ -4,6 +4,7 @@ import Login from "./pages/login";
 import Feed from "./pages/feed";
 import Teste from "./pages";
 import Register from "./pages/register";
+import "./styles.css";
 
 function App() {
   return (

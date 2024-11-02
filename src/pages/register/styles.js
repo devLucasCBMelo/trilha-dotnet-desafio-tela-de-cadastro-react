@@ -10,6 +10,10 @@ export const Container = styled.main`
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+
+  button {
+    width: 320px;
+  }
 `
 
 export const Title = styled.h2`
@@ -21,6 +25,16 @@ export const Title = styled.h2`
   margin-bottom: 20px;
   line-height: 44px;
 
+  color: #FFFFFF;
+`
+
+export const SubtitleLogin = styled.p`
+  font-family: 'Open-Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  margin-bottom: 35px;
+  line-height: 25px;
   color: #FFFFFF;
 `
 
