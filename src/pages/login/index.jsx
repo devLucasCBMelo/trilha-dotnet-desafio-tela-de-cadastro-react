@@ -32,7 +32,7 @@ const schema = yup.object({
 const Login = () => {
   const navigate = useNavigate();
 
-  const { control, handleSubmit, formState: { errors, isValid } } = useForm({
+  const { control, handleSubmit, formState: { errors, } } = useForm({
     resolver: yupResolver(schema),
     mode: 'onChange'
   });
@@ -40,7 +40,6 @@ const Login = () => {
   const onSubmit = async formData => {
     try {
       const { data } = await api.get(`users?email=${formData.email}&senha=${formData.password}`);
-      console.log('minha data: ', data)
       if (data.length === 1) {
         navigate('/feed');
       } else {

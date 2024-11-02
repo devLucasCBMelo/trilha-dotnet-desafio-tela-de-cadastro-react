@@ -35,7 +35,20 @@ export const SubtitleLogin = styled.p`
   font-size: 18px;
   line-height: 25px;
   color: #FFFFFF;
-  margin-top: 15px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  width: 320px;
+`
+
+export const SubBottonLogin = styled.p`
+  font-family: 'Open-Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #FFFFFF;
+  margin-top: 25px;
+  margin-bottom: 10px;
   width: 320px;
 `
 
@@ -44,13 +57,17 @@ font-size: 15px;
 font-style: normal;
 font-weight: bold;
 margin-bottom: 35px;
-margin-top: 10px;
+margin-top: 15px;
 color: #FFFFFF;
 
 
   strong {
     color: green;
   }
+
+  strong:hover {
+      cursor: pointer;
+    }
 `
 
 export const Column = styled.div`
