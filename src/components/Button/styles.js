@@ -2,6 +2,7 @@ import styled, { css } from "styled-components";
 
 export const ButtonContainer = styled.button`
   background: #565656;
+  border: 1px;
   border-radius: 22px;
   position: relative;
 
@@ -29,7 +30,7 @@ export const ButtonContainer = styled.button`
         top: -5px;
         left: -6px;
         width: calc(100% + 10px);
-        height: calc(100% + 1px);
+        height: calc(100% + 10px);
         border-radius: 22px;
       }
     `}

@@ -33,9 +33,24 @@ export const SubtitleLogin = styled.p`
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  margin-bottom: 35px;
   line-height: 25px;
   color: #FFFFFF;
+  margin-top: 15px;
+  width: 320px;
+`
+
+export const SubSubTitleLogin = styled.p`
+font-size: 15px;
+font-style: normal;
+font-weight: bold;
+margin-bottom: 35px;
+margin-top: 10px;
+color: #FFFFFF;
+
+
+  strong {
+    color: green;
+  }
 `
 
 export const Column = styled.div`
